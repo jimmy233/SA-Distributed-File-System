@@ -12,24 +12,27 @@
 **1.启动namenode及datanode**
 cd namenode  
 输入下图中的命令：./mvnw spring-boot:run  
-
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/startnamenode.png)
 之后:cd datanode 执行以下命令:  
 ./mvnw spring-boot:run -Dserver.port=8084  
 ./mvnw spring-boot:run -Dserver.port=8086  
-启动了两个datanode，截图如下:  
+启动了两个datanode，截图如下:
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/datanode1.png)
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/datanode2.png)
 
 ### 项目效果截图
 localhost:8761/file/toPage 访问页面  
 (注意上传文件的大小,小小的问题:文件如果有中文上传后下载,可能会中文乱码- -)  
 **1.界面如下:**  
-
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/page.png)
 **2.点击选择文件，上传文件**  
-
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/selectfile.png)
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/upload.png)
 **3.下载文件**  
-
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/download.png)
 **4.删除文件**  
-
-将b.txt删除  
+将b.txt删除:
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/delete.png)
 
 
 

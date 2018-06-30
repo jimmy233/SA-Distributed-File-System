@@ -18,11 +18,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author sunyiran
- * @date 2018-06-29
- * @purpose
- */
 @Service
 @Slf4j
 public class NameNodeServiceImpl implements NameNodeService {

@@ -26,9 +26,12 @@ localhost:8761/file/toPage 访问页面
 **1.界面如下:**  
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/page.png)
 **2.点击选择文件，上传文件**  
+上传了a.txt和b.txt
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/selectfile.png)
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/upload.png)
 **3.下载文件**  
+下载a.txt  
+
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/download.png)
 **4.删除文件**  
 将b.txt删除:

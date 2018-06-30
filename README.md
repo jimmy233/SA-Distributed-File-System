@@ -7,3 +7,13 @@
 同时写了一个简单的用以用户交互的前端界面。
 
 ## 使用说明及演示
+**1.启动namenode及datanode**
+cd namenode  
+输入下图中的命令：./mvnw spring-boot:run  
+
+之后:cd datanode 执行以下命令:  
+./mvnw spring-boot:run -Dserver.port=8084  
+./mvnw spring-boot:run -Dserver.port=8086  
+启动了两个datanode，截图如下:  
+
+

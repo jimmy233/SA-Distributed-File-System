@@ -18,7 +18,8 @@ cd namenode
 ./mvnw spring-boot:run -Dserver.port=8086  
 启动了两个datanode，截图如下:
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/datanode1.png)
-![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/datanode2.png)
+![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/datanode2.png)  
+
 **2.修改块大小及副本个数**  
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/size.png)
 

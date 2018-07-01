@@ -9,7 +9,8 @@
 
 ## 使用说明及演示
 ### 使用说明
-**1.启动namenode及datanode**
+**1.启动namenode及datanode**. 
+
 cd namenode  
 输入下图中的命令：./mvnw spring-boot:run  
 ![image](https://github.com/jimmy233/SA-Distributed-File-System/blob/master/image/startnamenode.png)

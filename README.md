@@ -1,7 +1,7 @@
 # SA-Distributed-File-System
 软件体系结构 Project  
 
-151220045 蒋雨霖
+蒋雨霖
 
 ## 简单介绍
 项目实现了基于微服务架构的分布式文件系统，基于Spring Boot实现NameNode和DataNode两个服务,基本实现了所有的功能要求，datanode服务可弹性扩展
